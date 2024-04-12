@@ -1,6 +1,5 @@
-import Chat from "../components/Chat/Chat";
 import ChatBackground from "../components/ChatBackground/ChatBackground";
-import NameBar from "../components/NameBar/NameBar";
+import ChatWrapper from "../components/ChatWrapper/ChatWrapper";
 import "./home.sass";
 
 const Home = () => {
@@ -8,8 +7,7 @@ const Home = () => {
     <div className="home">
       <div className="container">
         <ChatBackground />
-        <Chat />
-        <NameBar />
+        <ChatWrapper />
       </div>
     </div>
   );

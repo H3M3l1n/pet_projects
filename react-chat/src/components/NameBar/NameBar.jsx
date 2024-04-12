@@ -1,5 +1,7 @@
+import "./namebar.sass";
+
 const NameBar = () => {
-  return <div></div>;
+  return <div className="name_bar"></div>;
 };
 
 export default NameBar;

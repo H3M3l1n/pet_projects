@@ -1,7 +1,7 @@
 import "./messages.sass";
 
 const Messages = () => {
-  return <div></div>;
+  return <div className="messages"></div>;
 };
 
 export default Messages;
