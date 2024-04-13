@@ -24,8 +24,6 @@ const NameBar = () => {
     setEditUserName(true);
   };
 
-  console.log(savedUserName);
-
   useEffect(() => {
     if (savedUserName && savedUserName !== null) {
       setUserName(savedUserName);
@@ -36,8 +34,6 @@ const NameBar = () => {
     if (userName.length >= 3) {
       setValidUserName(true);
     } else setValidUserName(false);
-    console.log(userName.length);
-    console.log(validUserName);
   }, [userName, validUserName]);
 
   return (
