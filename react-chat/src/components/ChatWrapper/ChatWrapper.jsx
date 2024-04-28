@@ -7,8 +7,10 @@ const ChatWrapper = () => {
   return (
     <div className="chat_wrapper">
       <Chat />
-      <NameBar />
-      <UserId />
+      <div className="chat_wrapper-user">
+        <NameBar />
+        <UserId />
+      </div>
     </div>
   );
 };
